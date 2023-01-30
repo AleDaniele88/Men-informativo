@@ -7,8 +7,21 @@
 .footer{
 	background-color: rgb(177, 199, 253);
 	border-top: 2px solid rgb(91, 140, 229);
+	margin-top: 20px;
+	padding: 25px;
 }
 
 .titulo{
 	color: rgb(125, 143, 195);
+}
+
+.form-selector{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.administracion{
+	width: 88%;
+	margin: 0 auto;
+	margin-top: 40px;
 }
