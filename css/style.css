@@ -20,8 +20,13 @@
 	margin: 0 auto;
 }
 
-.administracion{
+.administracion, .inmobiliaria{
 	width: 88%;
 	margin: 0 auto;
 	margin-top: 40px;
+	box-shadow: -4px 6px 9px 3px rgba(0,0,0,0.28);
+	-webkit-box-shadow: -4px 6px 9px 3px rgba(0,0,0,0.28);
+	-moz-box-shadow: -4px 6px 9px 3px rgba(0,0,0,0.28);
+	border-radius: 8px;
+	padding: 15px;
 }
