@@ -20,7 +20,7 @@
 	margin: 0 auto;
 }
 
-.administracion, .inmobiliaria{
+.administracion, .inmobiliaria, .terraza{
 	width: 88%;
 	margin: 0 auto;
 	margin-top: 40px;
@@ -29,4 +29,17 @@
 	-moz-box-shadow: -4px 6px 9px 3px rgba(0,0,0,0.28);
 	border-radius: 8px;
 	padding: 15px;
+}
+
+.calendario{
+	height: 1000px !important;
+	width: 100% !important;
+	margin: 0 auto !important;;
+	
+}
+
+.footer img{
+	display: block;
+	width: 25px;
+	margin: 5px auto;
 }

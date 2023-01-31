@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú informativo</title>
-    <link rel="stylesheet" href="https://kit.fontawesome.com/2bf1dea849.css" crossorigin="anonymous">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -89,8 +89,10 @@
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                 </form>
             </article>
-            <article id="terraza" class="d-none">
+            <article id="terraza" class="terraza d-none d-flex flex-column">
                 <h2 class="fs-5">REALIZAR UNA RESERVA DE TERRAZA</h2>
+                <iframe class="calendario" src="https://edificioalianza64.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeedificioalianza64" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe>
+                <script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://edificioalianza64.youcanbook.me"){document.getElementById("ycbmiframeedificioalianza64").style.height = event.data + "px";}}, false);</script>
             </article>
         </section>
     </main>
@@ -98,23 +100,23 @@
     
     <footer class="footer d-flex flex-column justify-content-around">
         <div>
-            <i class="fa-solid fa-clock d-block text-center"></i>
+            <img src="./assets/clock.svg" alt="">
             <h3 class="text-center">Horario oficina</h3>
             <p class="text-center">Martes y Jueves<br>10:00 am a 11:30 pm</p>
         </div>
         <div>
-            <i class="fa-solid fa-envelope d-block text-center"></i>
+            <img src="./assets/email.svg" alt="">
             <h3 class="text-center">Correo</h3>
             <p class="text-center">edificioalianza64@gmail.com</p>
         </div>
         <div>
-            <i class="fa-solid fa-phone-volume d-block text-center"></i>
+            <img src="./assets/phone.svg" alt="">
             <h3 class="text-center">Teléfono</h3>
             <p class="text-center">315 8733064</p>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/2bf1dea849.js" crossorigin="anonymous"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
 </body>
