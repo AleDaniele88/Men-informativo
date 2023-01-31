@@ -32,6 +32,7 @@
 }
 
 .calendario{
+
 	height: 1000px !important;
 	width: 100% !important;
 	margin: 0 auto !important;;
@@ -42,4 +43,17 @@
 	display: block;
 	width: 25px;
 	margin: 5px auto;
+}
+
+a img{
+	display: block;
+	margin: 0 auto;
+	width: 25px;
+}
+
+.descargas{
+	background: rgb(202,200,230);
+	background: linear-gradient(90deg, rgba(202,200,230,1) 0%, rgba(91,140,229,0.6811099439775911) 84%, rgba(91,140,229,0.6418942577030813) 100%);
+	border-radius: 10px;
+	padding: 25px 10px;
 }
