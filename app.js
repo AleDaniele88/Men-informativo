@@ -10,7 +10,7 @@ let descargas = document.getElementById('descargas');
 
 
 
-formSelector.addEventListener("submit", (e)=>{
+selector.addEventListener("change", (e)=>{
 	e.preventDefault();
 	if(selector.value==="Contactar a la administración"){
 		administracion.classList.remove("d-none");
@@ -26,11 +26,16 @@ formSelector.addEventListener("submit", (e)=>{
 		descargas.classList.add("d-none");
 
 	}
-	else{
+	else if(selector.value==="Realizar una reserva de terraza"){
 		inmobiliaria.classList.add("d-none");
 		administracion.classList.add("d-none");
 		terraza.classList.remove("d-none");
 		descargas.classList.add("d-none");
-
+	}
+	else{
+		inmobiliaria.classList.add("d-none");
+		administracion.classList.add("d-none");
+		terraza.classList.add("d-none");
+		descargas.classList.remove("d-none");
 	}
 });
